@@ -1,4 +1,4 @@
-http://talyapimentel1portfolio.github.io
+#http://talyapimentel1portfolio.github.io
 
 This website show what I have learned in coding this past semester. I created a one page scroll website with refrence to w3schools. I created a background header that should fill the desktop screen but I did still have trouble with it. I also created a gallery featuring my recent work by using a container and div class and seperating them by column.
 
