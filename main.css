@@ -1,0 +1,66 @@
+body{
+    width:100%;
+    font-family:'Quicksand', sans-serif;
+}
+
+.background{
+    background-image: url(palmbackground-01.jpg);
+    background-size: contain;
+    width:100%;
+    background-color: blue;
+}
+
+finalp2-01.{
+
+animation:fadeIn 3s;
+}
+
+.container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family:'Quicksand', sans-serif;;
+  letter-spacing: 5px;
+}
+
+.wrapper{
+    /* what turns on css grid and allows us to access it */
+    display:grid;
+    /* what builds the columns */
+    /* a grid of 12 colums, each one fraction unit */
+    grid-template-columns: repeat(2, 1fr);
+    /* what builds the rows, auto takes the remaining space */
+    grid-template-rows: repeat(3,1fr);
+    /* what you see is what you get section, where we draw the grid with letters */
+    grid-template-areas: 
+    "h h "
+    "m c"
+    "f f ";
+
+}
+
+div {
+    border-style: solid;
+   
+}
+
+.header{
+    /* grid area is what sets the content of the div */
+grid-area: h;
+}
+
+.menu{
+grid-area: m;
+}
+
+.content{
+grid-area: c;
+}
+
+.footer{
+grid-area: f;
+}
